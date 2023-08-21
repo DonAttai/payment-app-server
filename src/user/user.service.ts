@@ -7,7 +7,7 @@ import {
 import { Repository } from 'typeorm';
 import { InjectRepository } from '@nestjs/typeorm';
 import { User } from './user.entity';
-import { CreateUserDto, FindUserDto, LoginUserDto } from './dtos';
+import { CreateUserDto, FindUserDto } from './dtos';
 import * as argon from 'argon2';
 import { getUserList } from './utils';
 
